@@ -6,7 +6,7 @@ from datetime import datetime
 import google.generativeai as genai
 import os
 from dotenv import load_dotenv
-
+from fastapi.middleware.cors import CORSMiddleware
 
 load_dotenv()
 
@@ -20,6 +20,14 @@ app = FastAPI(
     title="News Article Generator API",
     description="API for generating news articles from headlines using Gemini",
     version="1.0.0"
+)
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
