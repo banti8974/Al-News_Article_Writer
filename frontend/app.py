@@ -204,7 +204,7 @@ def main():
                 with st.spinner("Generating your article..."):
                     try:
                         response = requests.post(
-                            "http://localhost:8000/generate-article",
+                            "https://al-news-article-writer.onrender.com/generate-article",
                             json={
                                 "headline": headline,
                                 "tone": tone.lower(),
