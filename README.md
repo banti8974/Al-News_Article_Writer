@@ -12,6 +12,15 @@
 
 An advanced AI-powered news article generator that leverages multiple machine learning frameworks and libraries to create high-quality, contextually relevant news articles from headlines. The system combines the power of Hugging Face's transformers, LangChain, and various NLP tools to deliver sophisticated article generation capabilities.
 
+
+<img width="1228" alt="image" src="https://github.com/user-attachments/assets/cdf6165d-834b-4c34-8668-08f1bc06e06c" />
+<img width="1210" alt="image" src="https://github.com/user-attachments/assets/ed8eae1e-dedb-40ff-9ccf-fcc0b0216eb4" />
+<img width="1225" alt="image" src="https://github.com/user-attachments/assets/52fe7068-8f91-4625-a6fe-eeb3ec4f4658" />
+<img width="1229" alt="image" src="https://github.com/user-attachments/assets/4e57b8c3-a1c4-4d71-a570-88f6044dc1df" />
+
+
+
+
 ## Features
 - 🎯 Headline to Article Generation
 - 🎨 Customizable Tone & Style
