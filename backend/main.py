@@ -116,7 +116,6 @@
 
 
 
-
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import uvicorn
@@ -185,20 +184,24 @@ def create_prompt(headline: str, tone: str) -> str:
 @app.post("/generate-article", response_model=ArticleResponse)
 async def generate_article(request: HeadlineRequest):
     try:
-        # Generate content using Gemini
-        model = genai.get_model('gemini-pro')
+        # Configure the model
+        model = genai.GenerativeModel(model_name="models/text-bison-001")
+        
+        # Generate the prompt
         prompt = create_prompt(request.headline, request.tone)
         
+        # Generate content
         response = model.generate_content(
-            prompt,
-            generation_config=genai.types.GenerationConfig(
-                temperature=0.7,
-                top_p=0.8,
-                top_k=40,
-                max_output_tokens=request.length * 4
-            )
+            contents=prompt,
+            generation_config={
+                "temperature": 0.7,
+                "top_p": 0.8,
+                "top_k": 40,
+                "max_output_tokens": request.length * 4
+            }
         )
         
+        # Extract and process the response
         article = response.text.strip()
         word_count = len(article.split())
         
@@ -210,6 +213,7 @@ async def generate_article(request: HeadlineRequest):
         )
         
     except Exception as e:
+        print(f"Error details: {str(e)}")  # Add detailed logging
         raise HTTPException(
             status_code=500,
             detail=f"Error generating article: {str(e)}"
@@ -217,7 +221,11 @@ async def generate_article(request: HeadlineRequest):
 
 @app.get("/health")
 async def health_check():
-    return {"status": "healthy", "model": "gemini-pro"}
+    return {
+        "status": "healthy",
+        "model": "models/text-bison-001",
+        "api_configured": bool(GOOGLE_API_KEY)
+    }
 
 if __name__ == "__main__":
     port = int(os.getenv("PORT", 8000))
