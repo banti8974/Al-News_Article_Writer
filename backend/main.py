@@ -54,7 +54,7 @@ async def generate_article(request: HeadlineRequest):
                 'temperature': 0.7,
                 'top_p': 0.8,
                 'top_k': 40,
-               
+                
                 'max_output_tokens': request.length * 4  
             }
         )
@@ -80,4 +80,3 @@ async def health_check():
         "status": "healthy",
         "model": "gemini-pro"
     }
-
