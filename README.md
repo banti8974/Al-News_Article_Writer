@@ -1,4 +1,5 @@
 # AI News Article Generator
+An advanced AI-powered news article generator that leverages multiple machine learning frameworks and libraries to create high-quality, contextually relevant news articles from headlines. The system combines the power of Hugging Face's transformers, LangChain, and various NLP tools to deliver sophisticated article generation capabilities.
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://4add4csappvnxszctodwnhz.streamlit.app/)
 
@@ -8,9 +9,9 @@
 - 📂 **GitHub Repository**: [GitHub](https://github.com/s11saurabh/Al-News_Article_Writer)
 - 🎥 **Demo Video**: [Watch Demo](https://drive)
 
-## Overview
 
-An advanced AI-powered news article generator that leverages multiple machine learning frameworks and libraries to create high-quality, contextually relevant news articles from headlines. The system combines the power of Hugging Face's transformers, LangChain, and various NLP tools to deliver sophisticated article generation capabilities.
+
+
 
 
 <img width="1228" alt="image" src="https://github.com/user-attachments/assets/cdf6165d-834b-4c34-8668-08f1bc06e06c" />
