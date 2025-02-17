@@ -20,30 +20,30 @@ st.markdown("""
         background-color: #f8f9fa;
     }
     
-    /* Sidebar styling */
+   
     .css-1d391kg {
         background-color: #1f2937;
         padding: 2rem 1rem;
     }
     
-    /* Sidebar title */
+   
     .css-1d391kg .css-1629p8f h1 {
         color: white !important;
         font-size: 1.5rem !important;
         margin-bottom: 2rem;
     }
     
-    /* Sidebar text and sliders */
+   
     .css-1d391kg .css-81oif8 {
         color: #e5e7eb !important;
     }
     
-    /* Updated slider color */
+    
     .css-1d391kg .stSlider > div > div > div > div {
         background-color: #69b716 !important;
     }
     
-    /* Header styling */
+   
     .header {
         background-color: #1f2937;
         padding: 2rem;
@@ -57,7 +57,7 @@ st.markdown("""
         gap: 1rem;
     }
     
-    /* Main content area */
+    
     .main-content {
         background-color: white;
         padding: 2rem;
@@ -65,7 +65,7 @@ st.markdown("""
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     
-    /* Input field styling */
+    
     .stTextInput > div > div > input {
         border-radius: 8px;
         border: 2px solid #e5e7eb;
@@ -73,7 +73,7 @@ st.markdown("""
         font-size: 1rem;
     }
     
-    /* Button styling */
+   
     .stButton > button {
         background-color: #69B716;
         color: white;
@@ -89,7 +89,7 @@ st.markdown("""
         transform: translateY(-2px);
     }
     
-    /* Updated download button styling to match generate article button */
+   
     .stDownloadButton > button {
         background-color: #69B716 !important;
         color: white !important;
@@ -105,7 +105,7 @@ st.markdown("""
         transform: translateY(-2px) !important;
     }
     
-    /* Tips section */
+    
     .tips-section {
         background-color: #f8f9fa;
         padding: 1.5rem;
@@ -118,7 +118,7 @@ st.markdown("""
         margin-bottom: 1rem;
     }
     
-    /* Article container */
+   
     .article-container {
         background-color: white;
         padding: 2rem;
@@ -127,7 +127,7 @@ st.markdown("""
         margin-top: 2rem;
     }
     
-    /* Footer styling */
+   
     .footer {
         background-color: #1f2937;
         color: white;
@@ -137,7 +137,7 @@ st.markdown("""
         margin-top: 2rem;
     }
     
-    /* Text colors */
+   
     h1, h2, h3, p {
         color: #1f2937 !important;
     }
