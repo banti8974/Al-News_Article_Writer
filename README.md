@@ -7,7 +7,7 @@ An advanced AI-powered news article generator that leverages multiple machine le
 - 🌐 **Live Demo**: [Streamlit Frontend](https://4add4csappvnxszctodwnhz.streamlit.app/)
 - 🚀 **API Endpoint**: [Backend API](https://al-news-article-writer.onrender.com/health)
 - 📂 **GitHub Repository**: [GitHub](https://github.com/s11saurabh/Al-News_Article_Writer)
-- 🎥 **Demo Video**: [Watch Demo](https://drive)
+- 🎥 **Demo Video**: [Watch Demo](https://drive.google.com/file/d/1tJTSPhITOxWTeW70MkoUl4dP7ruZkpW0/view?usp=drive_link)
 
 
 
