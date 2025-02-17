@@ -1,14 +1,24 @@
 # AI News Article Generator
 
-[Live Demo]([your-deployed-link](https://4add4csappvnxszctodwnhz.streamlit.app/)) | [GitHub Repository]([your-github-repo-lin](https://github.com/s11saurabh/Al-News_Article-_Writer)k)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://4add4csappvnxszctodwnhz.streamlit.app/)
+
+## Quick Links
+- 🌐 **Live Demo**: [Streamlit Frontend](https://4add4csappvnxszctodwnhz.streamlit.app/)
+- 🚀 **API Endpoint**: [Backend API](https://al-news-article-writer.onrender.com/health)
+- 📂 **GitHub Repository**: [GitHub](https://github.com/s11saurabh/Al-News_Article_Writer)
+- 🎥 **Demo Video**: [Watch Demo](https://drive)
+
+## Overview
 
 An advanced AI-powered news article generator that leverages multiple machine learning frameworks and libraries to create high-quality, contextually relevant news articles from headlines. The system combines the power of Hugging Face's transformers, LangChain, and various NLP tools to deliver sophisticated article generation capabilities.
 
-<img width="1228" alt="image" src="https://github.com/user-attachments/assets/cdf6165d-834b-4c34-8668-08f1bc06e06c" />
-<img width="1210" alt="image" src="https://github.com/user-attachments/assets/ed8eae1e-dedb-40ff-9ccf-fcc0b0216eb4" />
-<img width="1225" alt="image" src="https://github.com/user-attachments/assets/52fe7068-8f91-4625-a6fe-eeb3ec4f4658" />
-<img width="1229" alt="image" src="https://github.com/user-attachments/assets/4e57b8c3-a1c4-4d71-a570-88f6044dc1df" />
-
+## Features
+- 🎯 Headline to Article Generation
+- 🎨 Customizable Tone & Style
+- ⚡ Real-time Processing
+- 📊 Article Analytics
+- 💾 Export Functionality
+- 🔄 History Tracking
 
 ## Table of Contents
 - [Overview](#overview)
@@ -21,6 +31,28 @@ An advanced AI-powered news article generator that leverages multiple machine le
 - [Frontend Details](#frontend-details)
 - [Deployment](#deployment)
 - [Future Enhancements](#future-enhancements)
+
+## Deployment Information
+
+The project is deployed across multiple platforms for optimal performance and accessibility:
+
+### Frontend (Streamlit Cloud)
+- **URL**: [https://4add4csappvnxszctodwnhz.streamlit.app/](https://4add4csappvnxszctodwnhz.streamlit.app/)
+- **Platform**: Streamlit Cloud
+- **Features**:
+  - Interactive UI
+  - Real-time Processing
+  - Responsive Design
+  - Custom Styling
+
+### Backend (Render)
+- **URL**: [https://al-news-article-writer.onrender.com/health](https://al-news-article-writer.onrender.com/health)
+- **Platform**: Render
+- **Features**:
+  - RESTful API
+  - Swagger Documentation
+  - Health Monitoring
+  - Scalable Infrastructure
 
 ## Technology Stack
 
@@ -154,8 +186,8 @@ project_root/
 
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
-cd ai-news-article-generator
+git clone https://github.com/s11saurabh/Al-News_Article_Writer.git
+cd Al-News_Article_Writer
 ```
 
 2. Create and activate virtual environment:
@@ -233,6 +265,11 @@ streamlit run app.py
    - Error analysis
    - Model iteration
    - Final model selection
+
+## Author
+
+**Saurabh Kumar**
+Indian Institute of Information Technology, Bhagalpur
 
 ## Contributing
 
