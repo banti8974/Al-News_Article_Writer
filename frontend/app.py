@@ -1,5 +1,3 @@
-# frontend/app.py
-
 import streamlit as st
 import requests
 import json
@@ -13,7 +11,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Insert your original custom CSS here:
+
 st.markdown("""
     <style>
    
@@ -141,7 +139,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 def main():
-    # Header
+
     st.markdown("""
         <div class="header">
             <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-rafpP6QDE2DSPHXoPzGo4i4uKebarm.png" style="width: 40px; height: 40px;">
@@ -152,7 +150,7 @@ def main():
         </div>
     """, unsafe_allow_html=True)
     
-    # Sidebar
+
     with st.sidebar:
         st.markdown('<h1 class="white-text">Settings</h1>', unsafe_allow_html=True)
         tone = st.select_slider(
@@ -190,7 +188,7 @@ def main():
             if headline:
                 with st.spinner("Generating your article..."):
                     try:
-                        # Point to your Render backend URL here:
+                        
                         BACKEND_URL = "https://al-news-article-writer.onrender.com/generate-article"
                         
                         response = requests.post(
