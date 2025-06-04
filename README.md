@@ -196,7 +196,7 @@ project_root/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/s11saurabh/Al-News_Article_Writer.git
+git clone https://github.com/banti8974/Al-News_Article_Writer.git
 cd Al-News_Article_Writer
 ```
 
