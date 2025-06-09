@@ -259,7 +259,7 @@ def main():
     
     st.markdown("""
         <div class="footer">
-            <p class="white-text">Developed by Saurabh Kumar</p>
+            <p class="white-text">Developed by Banti Kumar</p>
         </div>
     """, unsafe_allow_html=True)
 
